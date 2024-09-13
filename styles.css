@@ -346,6 +346,7 @@ body{
 .news-events {
     background-color: #c3f1f6;
     padding: 50px 20px;
+
 }
 
 .news-events h2 {
@@ -358,6 +359,7 @@ body{
 .news-section {
     display: flex;
     justify-content: space-around;
+
 }
 
 .news-item {
@@ -620,7 +622,6 @@ footer {
 
 .container {
     width: 90%;
-    margin: 0 auto;
 }
 
 /* Navigation Bar */
@@ -792,6 +793,8 @@ footer {
     text-decoration: underline;
 }
 
+
+
 /* Responsive Styles for Mobile */
 @media only screen and (max-width: 768px) {
 
@@ -806,6 +809,19 @@ footer {
 
     .footer-content {
         flex-direction: column;
+    }
+
+    .news-section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        
+        
+    }
+
+    .news-item {
+        width: 100%;
+
     }
 }
 #services
